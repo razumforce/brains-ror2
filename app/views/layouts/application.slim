@@ -3,8 +3,18 @@ html
 	head
     title MytestSlim
     = csrf_meta_tags
-		= stylesheet_link_tag 'application', media: 'all'
+    = stylesheet_link_tag 'application', media: 'all'
     = javascript_include_tag 'application'
 
+  	
+ 
+
 	body
-		= yield
+		#header
+			p this is a header
+
+		#content
+			= yield
+
+		#footer
+			span This is a test blog application. Copyright 2017 &copy Gregory Kovorotny
