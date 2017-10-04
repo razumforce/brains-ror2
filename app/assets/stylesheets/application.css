@@ -14,11 +14,61 @@
  *= require_self
  */
 
-body {
-	background-color: beige
+body htmls {
+	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 
-#footer {
-	text-align: center;
-	color: grey;
+.container {
+	background-color: beige;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.header {
+	background-color: mintcream;
+	height: 70px;
+}
+
+.footer {
+	background-color: mintcream;
+	height: 50px;
  }
+
+ .footer-text {
+ 	font-weight: bold;
+ 	font-size: smaller;
+ 	text-align: center;
+ }
+
+ .menu-bar {
+ 	display: inline-block;;
+ 	vertical-align: top;
+ }
+
+.menu li {
+	font-style: normal;
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 20px;
+	list-style-type: none;
+	display: inline;
+	margin-left: 15px;
+}
+
+.menu li a {
+	color: #A15151;
+	text-decoration: none;
+}
+
+.menu li a:hover {
+	color: darkblue;
+}
+
+.content {
+	padding-left: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+

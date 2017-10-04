@@ -10,11 +10,17 @@ html
  
 
 	body
-		#header
-			p this is a header
+		.container
+			.header
+				.menu-bar
+					ul.menu
+						li: a href="/index/show" Index
+						li: a href="/aboutme/show" About me
+			.content
+				= yield
 
-		#content
-			= yield
+			.footer
+				.footer-text
+					span This is a test blog application. Copyright 2017 &copy Gregory Kovorotny<br>
+					span All rights reserved
 
-		#footer
-			span This is a test blog application. Copyright 2017 &copy Gregory Kovorotny
