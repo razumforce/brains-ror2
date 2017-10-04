@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'aboutme/show'
+
   get 'index/show'
   root 'index#show'
 
