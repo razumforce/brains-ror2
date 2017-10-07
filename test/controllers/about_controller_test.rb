@@ -1,8 +1,8 @@
 require 'test_helper'
 
-class IndexControllerTest < ActionDispatch::IntegrationTest
+class AboutControllerTest < ActionDispatch::IntegrationTest
   test "should get show" do
-    get index_show_url
+    get about_show_url
     assert_response :success
   end
 

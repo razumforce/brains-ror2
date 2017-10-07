@@ -1,4 +1,4 @@
-class IndexController < ApplicationController
+class HomeController < ApplicationController
   def show
   	session[:times_her] = 0
   	session[:a] = 5
